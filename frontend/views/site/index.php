@@ -42,6 +42,14 @@ $this->title = 'Управление пивобезакло';
                 <td>18</td>
                 <td>11.6</td>
             </tr>
+            <tr>
+                <td>1</td>
+                <td>Брожение</td>
+                <td>Origamica IPA</td>
+                <td>0</td>
+                <td>18</td>
+                <td>11.6</td>
+            </tr>
             </tbody>
         </table>
     </div>
