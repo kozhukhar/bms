@@ -2,7 +2,7 @@
 
 namespace frontend\controllers;
 
-use app\models\Batches;
+use frontend\models\Batches;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
