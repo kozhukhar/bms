@@ -33,7 +33,7 @@
     "config": {
         "process-timeout": 1800,
         "fxp-asset": {
-            "enabled": false
+            "enabled": true
         },
         "allow-plugins": {
             "yiisoft/yii2-composer": true
