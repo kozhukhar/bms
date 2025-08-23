@@ -1,6 +1,6 @@
 <?php
 
-use app\models\Batches;
+use frontend\models\Batches;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;
