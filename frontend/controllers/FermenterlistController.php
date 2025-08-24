@@ -19,7 +19,7 @@ use frontend\models\ContactForm;
 /**
  * Site controller
  */
-class FermenerlistController extends Controller
+class FermenterlistController extends Controller
 {
     /**
      * {@inheritdoc}
