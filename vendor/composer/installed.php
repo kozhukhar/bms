@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '2.0.45',
-        'version' => '2.0.45.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => null,
+        'reference' => '47e37437905148e693ec69bbf66726875ee005cc',
         'name' => 'yiisoft/yii2-app-advanced',
         'dev' => true,
     ),
@@ -367,6 +367,21 @@
             'reference' => '120b605dfeb996808c31b6477290a714d356e822',
             'dev_requirement' => true,
         ),
+        'ramsey/uuid' => array(
+            'pretty_version' => '3.9.7',
+            'version' => '3.9.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ramsey/uuid',
+            'aliases' => array(),
+            'reference' => 'dc75aa439eb4c1b77f5379fd958b3dc0e6014178',
+            'dev_requirement' => false,
+        ),
+        'rhumsaa/uuid' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '3.9.7',
+            ),
+        ),
         'sebastian/code-unit-reverse-lookup' => array(
             'pretty_version' => '1.0.3',
             'version' => '1.0.3.0',
@@ -536,7 +551,7 @@
             'install_path' => __DIR__ . '/../symfony/polyfill-ctype',
             'aliases' => array(),
             'reference' => 'aed596913b70fae57be53d86faa2e9ef85a2297b',
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/polyfill-mbstring' => array(
             'pretty_version' => 'v1.19.0',
@@ -575,12 +590,12 @@
             'dev_requirement' => false,
         ),
         'yiisoft/yii2-app-advanced' => array(
-            'pretty_version' => '2.0.45',
-            'version' => '2.0.45.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => null,
+            'reference' => '47e37437905148e693ec69bbf66726875ee005cc',
             'dev_requirement' => false,
         ),
         'yiisoft/yii2-bootstrap4' => array(
