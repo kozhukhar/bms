@@ -1,6 +1,6 @@
 <?php
 
-use yiidbMigration;
+use yii\db\Migration;
 
 class m240501_create_uoms extends Migration
 {
