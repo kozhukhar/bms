@@ -71,6 +71,7 @@ class UomsController extends Controller
 
         if ($this->request->isPost) {
             if ($model->load($this->request->post()) && $model->save()) {
+                $model->created_at = time();
                 return $this->redirect(['view', 'id' => $model->id]);
             }
         } else {
